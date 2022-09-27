@@ -1,0 +1,15 @@
+{
+  "author": "Estevão Dias",
+  "license": "MIT",
+  "name": "rumble",
+  "private": "true",
+  "scripts": {
+    "start:@rumble/common": "npm run start --workspace=@rumble/common",
+    "start:@rumble/pay": "npm run start --workspace=@rumble/pay",
+    "test:all": "npm run test --workspaces --if-present"
+  },
+  "version": "1.0.0",
+  "workspaces": [
+    "./packages/*"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "author": "Estevão Dias",
+  "description": "",
+  "main": "src/main.js",
+  "types": "src/main.d.ts",
+  "files": [
+    "/src"
+  ],
+  "name": "@rumble/common",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc src/main.ts"
+  }
+}
